@@ -1,0 +1,287 @@
+body {
+    font-family: 'TT Hoves';
+    color: #222222;
+    margin: 0;
+}
+
+section {
+    padding: 0 calc(10vw - 16px);
+    margin-top: calc(11vw + 19px);
+}
+
+.section1 {
+    background-image: url('../img/html_css.png');
+    background-repeat: no-repeat;
+    background-position: top calc(4.8vw + 59px) right calc(6vw - 20px);
+    background-size: calc(23.8vw + 89px); 
+}
+
+section:first-child {
+    margin-top: 0;
+}
+
+.logo {
+    width: calc(8.8vw + 182px);
+    margin-top: 37px;
+}
+
+.courseData {
+    font-size: calc(0.5vw + 14px);
+    line-height: 140%;
+    margin-top: calc(6.3vw + 4px);
+    display: flex;
+    gap: calc(14.4vw - 24px);
+    flex-wrap: wrap;
+}
+
+.courseInfo {
+    min-width: 150px;
+}
+
+.courseData .value {
+    font-weight: 700;
+}   
+
+h1 {
+    font-size: calc(4.2vw + 26px);
+    font-family: Chava;
+    line-height: 110%;
+    margin: calc(3vw + 36px) 0 calc(2.2vw + 12px);
+}
+
+p {
+    font-size: calc(1vw + 14px);
+    font-weight: 300;
+    line-height: 140%;
+}
+
+.cta {
+    display: flex;
+    gap: 20px 30px;
+}
+
+.primary {
+    width: 328px;
+    background: #6E3ABA;
+    border-radius: 12px;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 20px 0;
+
+}
+
+.secondary {
+    width: 328px;
+    background: #fff;
+    border-radius: 12px;
+    color: #6E3ABA;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 20px 0;
+    border: 1px solid #6E3ABA;
+}
+
+h2 {
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: calc(3vw + 24px);
+    line-height: 117%;
+}
+.Courseimg p{
+    width: calc(13.48vw + 277px);
+}
+
+.Courseblock {
+    display: flex;
+    gap: 40px 70px ;
+    margin-top: calc(8vw + 9px);
+}
+.Courseblock2 {
+    display: flex;
+    gap: 40px 88px ;
+    margin-top: calc(8vw + 9px);
+}
+
+.Courseblock2 .Courseimg2 {
+    padding-top: 15px;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: calc(1vw + 14px); 
+    line-height: 140%;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: calc(1vw + 6px);
+}
+
+   
+.section2 {
+
+background-color: #6E3ABA;
+padding-top: calc(4.43vw + 23px);
+padding-bottom: calc(5.2vw + 21px);
+
+}
+.section2 h2 {
+    color: var(--typo-white, #FFF);
+    font-size: calc(1.9vw + 26px);
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.Numbers {
+
+display: flex;
+justify-content: center;
+gap: calc(6.4vw + 8px);
+}
+
+.firstnumber {
+color: #2F1D4E;
+font-family: Chava;
+font-size: calc(12.6vw + 12px);
+line-height: 107.5%;
+}
+
+.days {
+color: #2F1D4E;
+text-align: center;
+font-size: calc(1.88vw + 3px);
+font-weight: 500;
+text-transform: uppercase;
+}
+
+.section2 .secondary {
+margin-top: calc(3.9vw + 6px);
+}
+
+.secondarybutton{
+display: flex;
+justify-content: center;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    }
+    
+    .YuriyPhoto img {
+    width: calc(7.73vw + 300px);
+    height: calc(10.82vw + 423px);
+    
+    }
+    
+    .grid-container h3{
+    font-size: calc(1.10vw + 34px);
+    font-weight: 700;
+    }
+    
+    .grid-container p {
+    font-size: calc(1vw + 14px);
+    line-height: 140%;
+    width: calc(26vw + 229px);
+    }
+    
+    .Awards1 {
+    display: flex;
+    gap: calc(8.83vw - 23px);
+    margin-top:
+    }
+
+    .Awards img{
+    width: 36px;
+    height: 36px;
+    }
+    .Awards p {
+    font-size: calc(0.55vw + 14px);
+    width: calc(10vw + 117px);
+    }
+
+
+    .diploma-grid {
+        display: grid;
+        grid-template-columns: 430px 750px;
+        
+    }
+    
+    .diplomaimg img {
+    width: calc(11.38vw + 284px);
+    height: calc(7.84vw + 200px);
+    }
+    
+    .diplomacontainer1 {
+        grid-area: 1 / 2;
+    }
+    .diplomaimg {
+        grid-area: 1 / 1;
+    }
+    
+    .diplomacontainer2 {
+        grid-area: 2 / 2;
+    }
+    .diplomacontainer3 {
+        display: none;
+    }
+    .diplomacontainer h2{
+        margin-top: 0;
+        margin-left: 19px;
+        margin-bottom: 0;
+    }
+    .diplomacontainer p{
+        margin-left: 19px;
+        margin-bottom: 0;
+    }
+    
+    .hhsection img {
+        margin-top: 36px;
+        width: calc(81.43vw + 23px);
+    }
+    
+
+@media (max-width:700px){
+    .Courseblock {
+        flex-wrap: wrap;
+        } 
+    .cta {
+        flex-wrap: wrap;
+}
+    .Courseblock2 {
+        flex-wrap: wrap;
+    }
+    .grid-container {
+        grid-template-columns: 2fr;
+        grid-template-rows: 1fr 1fr;
+
+        }
+        
+    .Courseblock {
+        flex-wrap: wrap;
+        } 
+    .diploma-grid {
+        grid-template-columns: 300px;
+        grid-template-rows: 130px 1fr 100px;
+    }
+    .diplomacontainer1 {
+        grid-area: 1 / 1;
+    }
+    .diplomaimg {
+        grid-area: 2 / 1;
+    }
+
+    .diplomacontainer2 {
+        display: none;
+    }
+    .diplomacontainer3 {
+        display: block;
+    }
+    .diplomacontainer h2{
+        margin-left: 0px;
+
+    }
+}
